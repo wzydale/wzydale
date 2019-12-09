@@ -7,11 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Zhiyuan Homepage" />
 	<meta name="keywords" content="王志远,滑铁卢王志远,淄博王志远,wangzhiyuan,zhiyuan uwaterloo" />
-	
-
-	
-
-  	<!-- Facebook and Twitter integration -->
+	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content=""/>
@@ -24,7 +20,8 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-	
+	<!-- LightBOX Image View -->
+	<link href="lightbox/css/lightbox.css" rel="stylesheet" />
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -42,20 +39,7 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 	
-	<script>
-(function(){
-    var bp = document.createElement('script');
-    var curProtocol = window.location.protocol.split(':')[0];
-    if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-    }
-    else {
-        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-    }
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(bp, s);
-})();
-</script>
+
 	
 	   
 
@@ -79,7 +63,7 @@
 						  <ul class="fh5co-social-icons">
 									<li><a href="http://wpa.qq.com/msgrd?v=3&uin=841040774&site=qq&menu=yes">
                                     <i class="icon-qq"></i></a></li>
-									<li><a href="wechat.html"><i class="icon-bubbles2"> </i></a></li>
+									<li><a href="./images/wechat.png" data-lightbox="wechat_qrcode1" ><i class="icon-bubbles2"> </i></a></li>
 									<li><a href="https://blog.wzydale.com"><i class="icon-blog"> </i></a></li>
 									<li><a href="https://www.facebook.com/Dale1998"><i class="icon-facebook2"></i></a></li>
 									<li><a href="https://weibo.com/wzy841040774"><i class="icon-sina-weibo2"></i></a></li>
@@ -123,7 +107,7 @@
 				  <ul class="fh5co-social-icons">
 							<li><a href="http://wpa.qq.com/msgrd?v=3&uin=841040774&site=qq&menu=yes">
                                     <i class="icon-qq"></i></a></li>
-                                    <li><a href="wechat.html"><i class="icon-bubbles2"> </i></a></li>
+                                    <li><a href="./images/wechat.png" data-lightbox="wechat_qrcode2" ><i class="icon-bubbles2"> </i></a></li>
 									<li><a href="https://blog.wzydale.com"><i class="icon-blog"> </i></a></li>
 									<li><a href="https://www.facebook.com/Dale1998"><i class="icon-facebook2"></i></a></li>
 									<li><a href="https://weibo.com/wzy841040774"><i class="icon-sina-weibo2"></i></a></li>
@@ -588,12 +572,27 @@
 	<!-- Easy PieChart -->
 	<script src="js/jquery.easypiechart.min.js"></script>
 	<!-- Google Map -->
-
+     
 	<script src="js/google_map.js"></script>
-	
+
 	<!-- Main -->
 	<script src="js/main.js"></script>
-
+	<!-- LightBox Image View -->
+	<script src="lightbox/js/lightbox.js"></script>
+	<script>
+	(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+	})();
+	</script>
 	</body>
 </html>
 
